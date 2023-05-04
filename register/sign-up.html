@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://seeklogo.com/images/B/behance-logo-1373E40919-seeklogo.com.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="sign-up.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <link rel="stylesheet" href="sign-up.css"> -->
+</head>
+<body>
+    <div class="nav">
+        <div class="all_link">
+          <div><img src="https://1000logos.net/wp-content/uploads/2020/11/Behance-Logo-2005.jpg" alt="logo"></div>
+          <a href="#">For You</a>
+          <a href="#">Discover</a>
+          <a href="#">Live</a>
+          <a href="#">Hire</a>
+          <a href="#">Jobs</a>
+         </div>
+           
+       <div class="search-bar">
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+        <input type="text"  placeholder="  Search..." id="">
+       </div>
+       <div class="login_Container">
+        <i class="fa-solid fa-bell fa-lg"></i>
+        <a href="sign-in.html"class="log_in">Log In</a> 
+        <a href="sign-up.html"class="log_in">Sign Up</a>
+        <div  class="free_trial">
+        <img src="./free copy.png" alt="error">
+         <p> Free Trial</p>
+         </div>
+        <div  class="adobe">Adobe</div>
+       </div>  
+      </div>
+    <div id="registerbox">
+        <div id="registerh4"><h4>Register with The Fasion Store</h4></div>
+        <div class="loginregisterbtn">
+            <button class="login"><a href="./sign-in.html">LOGIN</a></button>
+            <button class="register"><a href="./sign-up.html">REGISTER</a></button>
+        </div>
+        
+        <form action="">
+          <div id="registerinput">
+            <h3>-OR-</h3>
+            <div class="fistnamelastname">
+              <input type="text" placeholder="FirstName" class="firstname_list" required>
+              <input type="text" placeholder="LastName" class="lastname_list" required>
+            </div>
+            <input type="email" placeholder="Email-Id" class="email_list" required>
+            <input type="password" placeholder="New password" class="new_password_list" required>
+            <input type="password" placeholder="Confirm Password" class="confirm_password_list" required>
+            <input type="number" placeholder="Mobile Number" class="mobile_number_list" required>
+            <div class="gendercheck">
+              <label for="">Gender</label>
+             <label for=""> <input type="radio" value="Male" class="male_list"> Male</label>
+             <label for=""> <input type="radio" value="Male" class="female_list"> Female</label>
+             <label for=""> <input type="radio" value="Male"  class="other_list"> Other</label>
+            </div>
+            <input type="submit" value="REGISTER" id="submit">
+            <span class="registerspan">Already a Customer? <a href="sign-in.html" id="regilogin">Sign-In</a> </span>
+          </div>
+        </form>
+    </div>
+    
+</body>
+</html>

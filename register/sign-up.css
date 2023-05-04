@@ -1,0 +1,100 @@
+#registerbox{
+    width: 30%;
+   /* border: 1px solid red; */
+   padding: 40px;
+    margin: auto;
+    margin-top:40px ;
+    text-align: center ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login,.register{
+    width: 49%;
+    height: 50px;
+    font-size: 16px;
+   
+   
+}.register>a{
+    text-decoration: none;
+    color: white;
+}
+.login>a{
+    text-decoration: none;
+    color: black;
+}
+.register{
+    background-color: rgb(11, 112, 88);
+    color: white;
+   
+    border: 0px;
+}
+#registerinput{
+   
+  width: 100%;
+  background-color: #f1f1f2;
+  border: 1px solid rgb(66, 65, 65);
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+#registerinput>input{
+  width: 80%;
+  margin: auto;
+ margin-top: 20px;
+ height: 40px;
+ font-size: 16px;
+ border-radius: 10px;
+}
+.gendercheck{
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.fistnamelastname{
+    width: 80%;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ gap: 30px;
+ margin: auto;
+}
+
+.fistnamelastname>input{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+   
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.registerspan{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#regilogin{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#registerh4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#submit{
+    background-color: #0b7058; border: 0px;
+     color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+}
+#process{
+    background-color: red; border: 0px;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+}
+

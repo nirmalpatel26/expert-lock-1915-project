@@ -23,7 +23,7 @@
     color: black;
 }
 .register{
-    background-color: rgb(11, 112, 88);
+    background-color: #169ed4;
     color: white;
    
     border: 0px;
@@ -86,13 +86,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #submit{
-    background-color: #0b7058; border: 0px;
+    background-color: #169ed4; border: 0px;
      color: white;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 20px;
 }
 #process{
-    background-color: red; border: 0px;
+    background-color: #169ed4; border: 0px;
      color: white;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 20px;

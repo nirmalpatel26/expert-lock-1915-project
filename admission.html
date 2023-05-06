@@ -10,20 +10,49 @@
 </head>
 
 <body>
-    <div id="navbar">
-        <nav>
-            <div id="logo">
-                <img src="./assets/logo.png" alt="lgo" />
+    <div class="nav">
+        <div id="responsive_nav">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.gNMGg2NeHo5cW4ZgVQHYJwHaHa&pid=Api&P=0" alt="menu">
+            <div class="login_Container">
+                <a href="#" class="log_in">Log In</a>
+                <a href="#" class="sign_up">Sign Up</a>
             </div>
-            <div id="nav_content">
-                <a href="#">HOME</a>
+        </div>
+
+        <div id="responsie_all_link">
+            <h2 id="close">X</h2>
+            <a href="./index.html">HOME</a>
+            <a href="#">ADMISSIONS</a>
+            <a href="#">TEACHERS</a>
+            <a href="">ABOUT</a>
+            <a href="">NEWS</a>
+            <a href="./contact.html">CONTACT</a>
+
+        </div>
+
+        <div id="desktop_nav">
+
+            <div id="logo">
+                <img src="./logo.jpg" alt="">
+                <h1>UP-SKILL</h1>
+            </div>
+            <div class="all_link">
+                <a href="./index.html">HOME</a>
                 <a href="#">ADMISSIONS</a>
                 <a href="#">TEACHERS</a>
-                <a href="#">ABOUT</a>
-                <a href="#">NEWS</a>
-                <a href="#">CONTACT</a>
+                <a href="">ABOUT</a>
+                <a href="">NEWS</a>
+                <a href="./contact.html">CONTACT</a>
+
             </div>
-        </nav>
+            <div class="login_Container">
+                <a href="#" class="log_in">Log In</a>
+                <a href="#" class="sign_up">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="navbar">
         <div id="nav_details">
             <div id="nav_desc">
                 <h1>ADMISSIONS</h1>
@@ -226,3 +255,17 @@
 </body>
 
 </html>
+<script>
+    document.getElementById("responsive_nav").addEventListener("click", function () {
+        let div = document.getElementById("responsie_all_link")
+        div.style.display = "flex"
+    })
+    document.getElementById("close").addEventListener("click", function () {
+        let div = document.getElementById("responsie_all_link")
+        div.style.display = "none"
+    })
+
+
+
+// display: flex;
+</script>

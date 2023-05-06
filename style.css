@@ -336,7 +336,7 @@ margin-bottom: 20px;
 .career{
 width: 100%;
 height: 1580px;
-background-color: #F0FFFF;
+background-color:#F0FFFF;
 padding-top: 5px;
 }
 .career>div{
@@ -423,4 +423,153 @@ border-radius: 0;
  }
  #pro{
   height:280px ;
+ }
+
+ .feedback{
+  width: 100%;
+  height: 500px;
+ }
+ .feedback>div{
+  margin: auto;
+  width: 60%;
+  height: 300px;
+  
+  display: flex;
+  justify-content: space-between;
+ }
+ .feedback>div>div{
+   background-color:#F0FFFF;
+   border-radius: 10px;
+  width: 32%;
+  height: 300px;
+  border: 1px solid lightseagreen;
+ }
+ .feedback>h1{
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 41px;
+ }
+ .feed{
+  width: 100%;
+  height: 100px;
+ 
+  display: flex;
+ }
+ .info{
+  width: 100%;
+  height: 200px;
+  
+ }
+ .feed>img{
+  width: 29%;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+  height: 90px;
+  border-radius: 50%;
+ }
+ .info>p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+ }
+ .feed>p{
+ padding-top: 14px;
+  font-family:sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+ }
+
+ .footer{
+  display: flex;
+  background-color: skyblue;
+  width: 100%;
+  height: 330px;
+  font-size: 15px;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+ }
+ .footer>div:nth-child(1){
+ 
+  width: 17%;
+  height: 270px;
+  
+ }
+ .footer>div:nth-child(2){
+ 
+  width: 12%;
+  height: 240px;
+  
+ }
+ .footer>div:nth-child(3){
+  
+  width: 12%;
+  height: 240px;
+  
+ }
+ .footer>div:nth-child(4){
+ 
+  width: 24%;
+  height: 270px;
+  
+ }
+ .footer>div:nth-child(1)>div>img{
+      width: 43%;
+      height: 80px;
+      border-radius: 50%;
+ }
+ 
+ .footer>div:nth-child(4)>div{
+  width: 44%;
+  height: 70px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ 
+ .footer>div:nth-child(4)>p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 24px;
+ }
+ .footer>div:nth-child(1)>div{
+width: 70%;
+height: 100px;
+
+display: flex;
+justify-content: space-between;
+
+ }
+ .footer>div:nth-child(1)>div>p{
+  font-weight: 800px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 21px;
+ }
+ #get{
+  font-size: 24px;
+ }
+ .footer>div:nth-child(4) input{
+  border: none;
+  width: 96%;
+  height: 37px;
+  font-size: 17px;
+ }
+ 
+ #pay{
+  width: 76%;
+ }
+ #pay>img{
+  width: 18%;
+  
+ }
+ #visa{
+  width: 14%;
+  height: 22px;
+ }
+ #venmo{
+  width: 14%;
+  height: 24px;
  }

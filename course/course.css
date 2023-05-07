@@ -15,9 +15,11 @@
 
 #product-container {
     /* border: 2px solid red; */
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
+    border-radius: 10px;
 }
 
 #product-container>div {
@@ -34,7 +36,7 @@
 #product-container>div>button {
     display: block;
     margin: auto;
-    background-color: rgb(236, 63, 0);
+    background-color: rgb(25, 210, 227);
     border: none;
     padding: 4px;
     border-radius: 5px;

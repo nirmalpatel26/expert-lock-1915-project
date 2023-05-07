@@ -6,21 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cart Page</title>
+  <link rel="stylesheet" href="./../style.css">
   <style>
     /* Write all necessery css here  */
-    .nav {
-      /* border: 2px solid red; */
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
+    
 
     #cart-container {
       /* border: 2px solid red; */
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 30px;
+      
     }
 
     #cart-container>div {
@@ -48,10 +44,27 @@
 
 <body>
   <div class="nav">
-    <h1>Masai E-Commerce</h1>
-    <a href="./course.html">Courses</a>
-    <a href="./cart.html">Cart</a>
-  </div>
+    <div id="logo">
+        <img src="./../logo.jpg" alt="">
+        <h1>UP-SKILL</h1>
+    </div>
+    <div class="all_link">
+      <a href="./../index.html">HOME</a>
+      <a href="./../admission.html">ADMISSIONS</a>
+      <a href="./teachers.html">TEACHERS</a>
+      <a href="./../about.html">ABOUT</a>
+      <a href="#">NEWS</a>
+      <a href="./../contact.html">CONTACT</a>
+      <a href="./course.html">COURSE</a>
+      <a href="./cart.html">CART</a>
+      
+     </div>
+     <div class="login_Container">
+        <a href="./../register/sign-in.html" class="log_in" >Log In</a>
+        <a href="./../register/sign-up.html" class="sign_up" >Sign Up</a>
+       </div>  
+      </div>
+</div> 
   <h1 id="total">
     Your Total cart Price is:- <span id="cart-total">0</span>
   </h1>

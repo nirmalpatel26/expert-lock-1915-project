@@ -3,6 +3,7 @@ let username=document.getElementById('username');
 let password=document.getElementById("password");
 let process=document.getElementById("process");
 let form=document.querySelector("form"); 
+let log_in=document.querySelector(".log_in");
   async function fetchurl(){
     try{
       let res=await fetch("https://mock-api-template-gyfo.onrender.com/login");
@@ -12,9 +13,11 @@ let form=document.querySelector("form");
       if(result){
         Swal.fire({
             icon: 'success',
-            text: `WELCOME ${result}`,
+            text: `WELCOME ${result.toUpperCase()}`,
           })
           localStorage.setItem("username", JSON.stringify(result))
+          let username= JSON.parse(localStorage.getItem("username"))||"";
+          log_in.innerHTML=username.toUpperCase();
         }else{
           Swal.fire({
                 icon: 'error',

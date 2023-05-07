@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  
 #registerbox{
     width: 30%;
    /* border: 1px solid red; */
@@ -98,3 +107,107 @@
      font-size: 20px;
 }
 
+.nav{
+    display: flex;  
+    width: 100%;
+    height: 60px;
+    justify-content:space-between;
+    align-items: center;
+      padding-left: 40px;
+      padding-right: 80px;
+      background-color:#368BC1;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    } 
+    #logo>h1:hover{
+      color: white;
+    }
+    #logo>h1{
+     font-size: 21px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    #logo>img{
+      width: 30%;
+      border-radius: 50%;
+      height: 50px;
+    }
+    #logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 12%;
+    height: 60px;
+  
+    }
+    .all_link{
+     
+      display: flex;  
+      justify-content:space-between;
+      align-items: center;
+      
+      width: 44%;
+      height: 40px;
+     
+    }
+    .all_link>a{
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* color: black; */
+        font-weight: 600;
+      color: white;
+      }
+      .all_link>div{
+       
+        width: 20%;
+        height: 40px;
+      }
+      .all_link>div>img{
+        width: 100%;
+      }
+      .all_link>a:hover{
+       text-decoration: underline;
+       color: black;
+      }
+    
+    
+      .login_Container{
+      
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 16%;
+        height: 40px;
+      
+        }
+        .log_in:hover{
+          background-color: royalblue;
+          color: red;
+        }
+        .log_in{
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 80px;
+          height: 30px;
+          color: blue;
+          background-color:lavender;
+          border-radius: 50px;
+        }
+        .sign_up:hover{
+          background-color: whitesmoke;
+          color: black;
+        }
+        .sign_up{
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 90px;
+          height: 30px;
+          color: white;
+          background-color:blue;
+          border-radius: 50px;
+        }

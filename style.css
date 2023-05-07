@@ -123,6 +123,7 @@ body {
         border-radius: 50px;
       }
       .slider{
+        margin-top: 50px;
         position: relative;
         width: 100%;
         background: #2c3e50; /* darckblue */

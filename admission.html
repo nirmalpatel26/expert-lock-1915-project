@@ -14,18 +14,18 @@
         <div id="responsive_nav">
             <img src="https://tse2.mm.bing.net/th?id=OIP.gNMGg2NeHo5cW4ZgVQHYJwHaHa&pid=Api&P=0" alt="menu">
             <div class="login_Container">
-                <a href="#" class="log_in">Log In</a>
-                <a href="#" class="sign_up">Sign Up</a>
+                <a href="./register/sign-in.html" class="log_in">Log In</a>
+                <a href="./register/sign-up.html" class="sign_up">Sign Up</a>
             </div>
         </div>
 
         <div id="responsie_all_link">
             <h2 id="close">X</h2>
             <a href="./index.html">HOME</a>
-            <a href="#">ADMISSIONS</a>
-            <a href="#">TEACHERS</a>
-            <a href="">ABOUT</a>
-            <a href="">NEWS</a>
+            <a href="./admission.html">ADMISSIONS</a>
+            <a href="./teacher/teachers.html">TEACHERS</a>
+            <a href="./about.html">ABOUT</a>
+            <a href="#">NEWS</a>
             <a href="./contact.html">CONTACT</a>
 
         </div>
@@ -38,16 +38,16 @@
             </div>
             <div class="all_link">
                 <a href="./index.html">HOME</a>
-                <a href="#">ADMISSIONS</a>
-                <a href="#">TEACHERS</a>
-                <a href="">ABOUT</a>
-                <a href="">NEWS</a>
+                <a href="./admission.html">ADMISSIONS</a>
+                <a href="./teacher/teachers.html">TEACHERS</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="#">NEWS</a>
                 <a href="./contact.html">CONTACT</a>
 
             </div>
             <div class="login_Container">
-                <a href="#" class="log_in">Log In</a>
-                <a href="#" class="sign_up">Sign Up</a>
+                <a href="./register/sign-in.html" class="log_in">Log In</a>
+                <a href="./register/sign-up.html" class="sign_up">Sign Up</a>
             </div>
         </div>
     </div>
@@ -264,7 +264,9 @@
         let div = document.getElementById("responsie_all_link")
         div.style.display = "none"
     })
-
+    document.getElementById("logo").addEventListener("click", function () {
+        window.location.href = "./index.html"
+    })
 
 
 // display: flex;
